@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#app {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#task-list {
+  margin-bottom: 20px;
+}
+
+#task-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#task-input,
+#task-category {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  padding: 5px 10px;
+  border: none;
+  background: #28a745;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+button:hover {
+  background: #218838;
+}
+
+.task-travail {
+  color: white;
+  background-color: red;
+}
+
+.task-maison {
+  color: white;
+  background-color: blue;
+}
+
+.task-divers {
+  color: white;
+  background-color: green;
+}
+
+.task-item {
+  padding: 5px;
+  margin: 5px 0;
+  border-radius: 3px;
+}

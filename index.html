@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liste de Tâches</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <h1>Liste de Tâches</h1>
+      <div id="task-list"></div>
+      <form id="task-form">
+        <input
+          type="text"
+          id="task-input"
+          placeholder="Nouvelle tâche..."
+          required
+        />
+        <select id="task-category">
+          <option value="travail">Travail</option>
+          <option value="maison">Maison</option>
+          <option value="divers">Divers</option>
+        </select>
+        <button type="submit">Ajouter</button>
+      </form>
+    </div>
+    <script src="model.js"></script>
+    <script src="view.js"></script>
+    <script src="controller.js"></script>
+  </body>
+</html>
